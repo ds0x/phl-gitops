@@ -36,6 +36,18 @@ org_settings:
     server_url: $FLEET_URL
 
   ###########################################################
+  # Send a webhook to this URL whenever an activity is
+  # generated (e.g. an admin edits a policy or runs a script).
+  #
+  # Read more:
+  #   • https://fleetdm.com/docs/configuration/yaml-files#activities-webhook
+  ###########################################################
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/94acf2b1-44d4-4ee7-8084-8898323bb9d1
+
+  ###########################################################
   # Uncomment to use single sign-on (SSO) for admins accessing Fleet.
   #
   # Read more:
