@@ -177,6 +177,10 @@ software:
   fleet_maintained_apps:
     # macOS apps
     - slug: zoom/darwin # Zoom for macOS
+      self_service: true
+      setup_experience: true
+      categories:
+        - Communication
       post_install_script:
         path: ../platforms/macos/scripts/post-install/configure-zoom.sh
     # …
