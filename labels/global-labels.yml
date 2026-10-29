@@ -9,3 +9,6 @@
   query: SELECT 1 FROM uptime WHERE days > 30;
   label_membership_type: dynamic
   platform: darwin
+- name: macOS 27 beta testers
+  description: Macs enrolled in macOS 27 beta testing
+  label_membership_type: manual
