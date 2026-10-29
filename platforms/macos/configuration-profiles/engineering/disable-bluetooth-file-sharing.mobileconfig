@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.Bluetooth</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>PrefKeyServicesEnabled</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Disables Bluetooth file sharing</string>
+			<key>PayloadDisplayName</key>
+			<string>Bluetooth sharing</string>
+			<key>PayloadIdentifier</key>
+			<string>com.fleetdm.phl.disable-bluetooth-file-sharing.A86FD8EA-2137-4B3E-8BFC-2250C6B6C6E1</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>A86FD8EA-2137-4B3E-8BFC-2250C6B6C6E1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Disables Bluetooth file sharing (CIS macOS benchmark)</string>
+	<key>PayloadDisplayName</key>
+	<string>Disable Bluetooth file sharing</string>
+	<key>PayloadIdentifier</key>
+	<string>com.fleetdm.phl.disable-bluetooth-file-sharing</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>DD36B434-82B1-46AE-84DC-50E558CFAF8E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
