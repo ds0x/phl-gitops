@@ -103,7 +103,11 @@ controls:
     deadline: "2026-12-31"
     minimum_version: "26.5"
     update_new_hosts: true
-  # windows_updates:
+  ipados_updates:
+    deadline: "2026-12-31"
+    minimum_version: "26.5"
+    update_new_hosts: true  
+# windows_updates:
   #   deadline_days: 7
   #   grace_period_days: 2
 
