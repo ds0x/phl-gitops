@@ -23,7 +23,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: PHL GitOps
+    org_name: PHL BestOps
 
   server_settings:
     ###########################################################
