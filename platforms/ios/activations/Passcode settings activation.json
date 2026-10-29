@@ -1,0 +1,10 @@
+{
+    "Type": "com.apple.activation.simple",
+    "Identifier": "com.fleetdm.phl.activation.passcode.ios",
+    "Payload": {
+        "StandardConfigurations": [
+            "com.fleetdm.phl.config.passcode.ios"
+        ],
+        "Predicate": "@status(device.operating-system.family) == 'iOS'"
+    }
+}
