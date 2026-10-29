@@ -15,6 +15,12 @@
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 Workstations"
+settings:
+  webhook_settings:
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/c5196bc2-f0bd-474e-9970-0d6ad9fa8b6c
+      host_batch_size: 0 # Unlimited: all failing hosts in one request
 controls:
   setup_experience:
     ###########################################################
